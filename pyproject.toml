@@ -1,0 +1,15 @@
+[project]
+name = "cefi-portal-ai-client"
+version = "0.1.0"
+description = "Client for interacting with the CEFI Portal MCP server"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.59.0",
+    "langchain>=0.3.27",
+    "langchain-google-genai>=2.1.8",
+    "langchain-mcp-adapters>=0.1.9",
+    "langgraph>=0.5.4",
+    "mcp>=1.12.2",
+    "python-dotenv>=1.1.1",
+]
